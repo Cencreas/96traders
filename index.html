@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 96 Traders</title>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <!----------------------GOOGLE FONTS------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,629;1,629&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,629;1,629&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+     <!----------------------BOOTSRAP ICONS------------->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+     <!--------------------BOOTSTRAP CSS---------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!--------------------BOOTSTRAP JAVASCRIPT---------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+     <!--------------------FONTAWESOME---------------->
+    <script src="https://kit.fontawesome.com/5e34f64aca.js" crossorigin="anonymous"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!------------------CSS---------------------->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container py-3">
+          <a class="navbar-brand" href="#">
+      <img clas src="img/LOGO4.1.png"></a>
+      <a class="navbar-brand">96 Traders</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link scrollto" aria-current="page" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#about">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#services">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollto" href="#footer">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+       <!-- ======= Hero Section ======= 
+  <section id="hero" class="hero d-flex align-items-center section-bg">
+    <div class="container">
+      <div class="row justify-content-between gy-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 data-aos="fade-up">Explorando Horizontes<br>Comerciais</h2>
+          <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+           
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+        
+        </div>
+      </div>
+    </div>
+  </section> End Hero Section -->
+
+   <!--SLIDER-->
+   <section id="hero" class="hero d-flex align-items-center section-bg">
+   <div class="" id="slider-container">
+    <div class="carousel slider" id="slider" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button"
+        class="active" 
+        data-bs-target="#slider" 
+        data-bs-slide-to="0"  
+        aria-label="Slide 1">
+        </button>
+        <button type="button"
+        data-bs-target="#slider" 
+        data-bs-slide-to="1" 
+        aria-label="Slide 2">
+        </button>
+        <button type="button"
+        data-bs-target="#slider" 
+        data-bs-slide-to="2"  
+        aria-label="Slide 3">
+        </button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/aviao3.jpg" alt="Casa 1" class="d-block w-100">
+          <div class="carousel-caption">
+            <h5>Explorando Horizontes<br>Comerciais</h5>
+           
+          </div>
+        </div>
+
+          <div class="carousel-item">
+            <img src="img/navio7.jpg" alt="Casa 2" class="d-block w-100">
+            <div class="carousel-caption">
+              <h5>Explorando Horizontes<br>Comerciais</h5>
+             
+            </div>
+          </div>
+
+            <div class="carousel-item">
+              <img src="img/aviao4.jpg" alt="Casa 3" class="d-block w-100">
+              <div class="carousel-caption">
+                <h5>Explorando Horizontes<br>Comerciais</h5>
+                
+              </div>
+            </div>
+      </div>
+      <button class="carousel-control-prev" 
+      type="button" 
+      data-bs-target="#slider" 
+      data-bs-slide="prev">
+      <i class="bi bi-chevon-compact-left"></i>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" 
+      type="button" 
+      data-bs-target="#slider" 
+      data-bs-slide="next">
+      <i class="bi bi-chevon-compact-right"></i>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </section>
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Sobre</h2>
+        <h3>Descubra mais <span>sobre nós</span></h3>
+       
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+          <img src="img/about4.jpg" class="img-fluid about-img" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+         
+          <p class="paragrafo">
+            Somos uma empresa especialista em importações diretas da China. Desenvolvemos soluções de Procurement personalizadas para atender às necessidades exclusivas da sua empresa, garantindo qualidade e eficiência. 
+            Além disso, oferecemos serviços de transporte ágil para seus produtos importados. 
+            Potencialize seus negócios com nossa experiência em comércio internacional.
+          </p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-ship"></i>
+              <div>
+                <h5>Navegando pelo Sucesso</h5>
+                <p>Seu transporte de cargas está em boas mãos</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-plane"></i>
+              <div>
+                <h5>Decolagem direta para o Mundo dos Negócios</h5>
+                <p>Sua Carga, Nossa Prioridade!</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Serviços</h2>
+        <h3>Veja os nossos <span>Serviços</span></h3>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+            <h4><a href="">Procurement</a></h4>
+            <p>Transformamos desejos em realidade, conectando você aos melhores produtos na China, com precisão e eficiência.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-file-signature"></i></div>
+            <h4><a href="">Despacho Aduaneiro</a></h4>
+            <p>Simplificamos o caminho entre fronteiras, garantindo um processo aduaneiro ágil e seguro para seus produtos chegarem sem complicações</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
+            <h4><a href="">Transporte de Cargas</a></h4>
+            <p>Além de fronteiras, além de distâncias. Garantimos a chegada segura e oportuna dos seus produtos da China até você.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- 
+  <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <h3><span>Contact Us</span></h3>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+      </div>
+
+      
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+       
+        <div class="col-lg-6">
+          <div class="info-box mb-4">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Our Address</h3>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+        </div>
+     
+        <div class="col-lg-6 col-md-6">
+          <div class="info-box  mb-4">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Email Us</h3>
+            <p>contact@example.com</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <div class="info-box  mb-4">
+            <i class="fa-solid fa-phone-volume"></i>
+            <h3>Call Us</h3>
+            <p>+1 5589 55488 55</p>
+          </div>
+        </div>
+
+      </div>
+   
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-lg-12 ">
+          <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+        </div>
+      </div>
+     -->
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3><img class="logo2" src="img/LOGO4.2.png">96 Traders<span>.</span></h3>
+            <p>
+              <strong>Phone:</strong> +258 87 624 6285 / 84122 5064<br>
+              <strong>Email:</strong> contacto@96traders.co.mz<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Serviços</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#footer">Contactos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Os nossos serviços</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Procurement</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Despachante Aduaneiro</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Transporte de Cargas</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>As nossas redes socias</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/the_96traders?igsh=MXNibDFhYmVjM2oxdQ==" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4 bottom">
+      <div class="copyright">
+        &copy; Copyright <strong><span>The 96 Traders</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
+        Designed by <a href="https://www.instagram.com/eufrates_livinguiston/">Eufrates L.Cossa</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+</body>
+</html>
