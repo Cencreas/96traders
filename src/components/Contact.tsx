@@ -109,7 +109,7 @@ const Contact = () => {
                 <h4 className="font-semibold text-primary mb-4">Siga-nos</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.facebook.com/profile.php?id=61585495555680"
                     className="bg-primary bg-opacity-10 p-3 rounded-full hover:bg-primary hover:text-white transition-colors"
                   >
                     <Facebook size={20} />
@@ -132,7 +132,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Google Maps 
+            {/*ea Google Maps 
             <div className="bg-white p-2 rounded-lg shadow-lg">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230994.99842855652!2d32.32065654999999!3d-25.891968449999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee69b8b6b3a9d5d%3A0x4b9b6b3a9d5d9b8!2sMaputo%2C%20Mozambique!5e0!3m2!1sen!2sus!4v1234567890123"
