@@ -32,7 +32,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61585495555680"
                 className="bg-primary bg-opacity-10 p-3 rounded-full hover:bg-white hover:text-black transition-colors"
               >
                 <Facebook size={20} />
